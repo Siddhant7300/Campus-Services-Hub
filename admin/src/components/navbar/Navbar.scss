@@ -1,0 +1,40 @@
+.Navbar {
+    height: 60px;
+    border-bottom: 1px solid var(--border-color);
+
+    .navbar{
+        background-color: rgb(18, 150, 215) !important;
+        color: rgb(14, 212, 21) !important;
+    }
+
+    .nav-link{
+        color: white !important;
+    }
+
+    .nav-item{
+        padding: 0 10px 0 10px;
+    }
+
+    .container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right-side {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logout {
+        // font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: red !important;
+        // font-weight: 700;
+    }
+}

@@ -1,0 +1,75 @@
+
+/*---------------------------*/
+.Bike-Rental {
+    display: flex;
+    flex-direction: row;
+    gap: 7vw;
+    align-items: center;
+    background-color: #222831;
+    padding: 33px;
+  
+  }
+  
+  .Bike-Form {
+    display: flex;
+    flex-direction: column;
+  
+    font-size: 30px;
+  
+    gap: 20px;
+  
+    position: relative;
+    margin: 8% auto;
+    width: 40vw;
+    border: solid 1px #222831;
+    background: #EEEEEE;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  
+  .Bike-Form input {
+    font-size: 30px;
+  }
+  
+  
+  .bike-background {
+    width: 46vw;
+  }
+  
+  .input {
+    text-align: center;
+  }
+  
+  .rentBtn {
+    font-size: 20px;
+  
+    cursor: pointer;
+      outline: 0;
+      color: #fff;
+      background-color: #76ABAE;
+      border-color: #76ABAE;
+      display: inline-block;
+      font-weight: 400;
+      line-height: 1.5;
+      text-align: center;
+      border: 1px solid transparent;
+      padding: 10px 20px;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    
+    }
+    
+    .rentBtn:hover {
+      color: #fff;
+      background-color: #76ABAE;
+      border-color: #76ABAE;
+    }
+  
+  form div input {
+    text-align: center;
+  }
+  
+  .bike-select {
+    font-size: 30px;
+  }

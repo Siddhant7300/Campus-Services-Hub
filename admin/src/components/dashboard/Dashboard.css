@@ -1,0 +1,16 @@
+.mainContainer{
+    /* border: 2px solid red; */
+    display: flex;
+    /* width: 80%; */
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.cardContainer{
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContainer .card img{
+    aspect-ratio: 3/4;
+}
